@@ -143,23 +143,23 @@ Copy-Move-Forgery-Detection/
 
 ## 📸 Sample Results
 
-You can add screenshots of:
+### SIFT Keypoints
 
-* Original Image
-* Forged Image
-* SIFT Keypoints
-* Matched Features
-* Final Forgery Detection Output
+![SIFT Keypoints](results/Figure_1.png)
 
-Example:
+*Figure 1: SIFT keypoints detected in the forged image.*
 
-```text
-results/
-├── original.png
-├── forged.png
-├── keypoints.png
-└── detection.png
-```
+### Feature Matching
+
+![SIFT Matches](results/Figure_2.png)
+
+*Figure 2: Matched keypoints indicating duplicated regions.*
+
+### Final Forgery Detection
+
+![Forgery Detection](results/Figure_3.png)
+
+*Figure 3: Detected forged regions highlighted using bounding boxes.*
 
 ---
 
